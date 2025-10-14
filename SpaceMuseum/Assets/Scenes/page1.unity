@@ -2747,7 +2747,7 @@ PrefabInstance:
     - target: {fileID: 6928317209785957237, guid: 2f7284699a68507459ee2bad04642f2d,
         type: 3}
       propertyPath: m_Name
-      value: Earth
+      value: Earth1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
