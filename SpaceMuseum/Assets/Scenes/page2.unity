@@ -1540,6 +1540,7 @@ RectTransform:
   - {fileID: 1348219790}
   - {fileID: 443115878}
   - {fileID: 124007578}
+  - {fileID: 803460985}
   - {fileID: 1418075721}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2848,17 +2849,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803460984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1036659980}
-  m_Father: {fileID: 1418075721}
+  m_Father: {fileID: 504108006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 264.94836, y: -250.55255}
+  m_AnchoredPosition: {x: 975, y: -18.052551}
   m_SizeDelta: {x: 1013.8994, y: 1447.1052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803460986
@@ -4347,7 +4348,7 @@ MonoBehaviour:
   satelliteStyleSheet: {fileID: 0}
   satelliteDataList:
   - satellite: {fileID: 1623250871}
-    introText: "<color=#FFFFFF><size=55><b>Lunar Gateway</b></size></color>\r\n<color=#FFFFFF><size=50>\u662F\u4E00\u4E2A\u8BA1\u5212\u4E2D\u7684\u6708\u7403\u8F68\u9053\u7A7A\u95F4\u7AD9\uFF0C\u4F5C\u4E3ANASA
+    introText: "<color=#FFFFFF><size=75><b>Lunar Gateway</b></size></color>\r\n<color=#FFFFFF><size=70>\u662F\u4E00\u4E2A\u8BA1\u5212\u4E2D\u7684\u6708\u7403\u8F68\u9053\u7A7A\u95F4\u7AD9\uFF0C\u4F5C\u4E3ANASA
       Artemis\u8BA1\u5212\u7684\u6838\u5FC3\u7EC4\u6210\u90E8\u5206\uFF0C\u7531\u7F8E\u56FD\u56FD\u5BB6\u822A\u7A7A\u822A\u5929\u5C40\u7275\u5934\uFF0C\u5E76\u4E0E\u6B27\u6D32\u7A7A\u95F4\u5C40\u3001\u65E5\u672C\u5B87\u5B99\u822A\u7A7A\u7814\u7A76\u5F00\u53D1\u673A\u6784\u3001\u52A0\u62FF\u5927\u7A7A\u95F4\u5C40\u548C\u963F\u8054\u914B\u7A46\u7F55\u9ED8\u5FB7\xB7\u672C\xB7\u62C9\u5E0C\u5FB7\u7A7A\u95F4\u4E2D\u5FC3\u7B49\u591A\u56FD\u673A\u6784\u5408\u4F5C\u5EFA\u8BBE\uFF0C\u65E8\u5728\u6210\u4E3A\u6708\u7403\u63A2\u7D22\u7684\u901A\u4FE1\u67A2\u7EBD\u3001\u79D1\u5B66\u5B9E\u9A8C\u5BA4\u548C\u5B87\u822A\u5458\u5C45\u4F4F\u6A21\u5757\u3002\u8BE5\u7A7A\u95F4\u7AD9\u91C7\u7528\u6A21\u5757\u5316\u8BBE\u8BA1\uFF0C\u4E3B\u8981\u6A21\u5757\u7684\u8D28\u91CF\u8303\u56F4\u4ECE5,000\u516C\u65A4\uFF08\u5982\u52A8\u529B\u4E0E\u63A8\u8FDB\u5143\u4EF6PPE\uFF09\u523010,000\u516C\u65A4\uFF08\u5982\u56FD\u9645\u5C45\u4F4F\u6A21\u5757I-HAB\uFF09\uFF0C\u521D\u59CB\u914D\u7F6E\u7531PPE\u548C\u5C45\u4F4F\u4E0E\u7269\u6D41\u524D\u54E8\u7AD9\u7EC4\u6210\uFF0C\u603B\u8D28\u91CF\u7EA613,000\u516C\u65A4\u3002Gateway\u7684\u529F\u7387\u7531PPE\u63D0\u4F9B\uFF0C\u901A\u8FC7\u592A\u9633\u80FD\u7535\u529B\u7CFB\u7EDF\u751F\u621050\u5343\u74E6\uFF0C\u7528\u4E8E\u9A71\u52A8\u79BB\u5B50\u63A8\u8FDB\u5668\u548C\u7AD9\u5185\u7CFB\u7EDF\u8FD0\u884C\u3002\u5176\u6709\u6548\u8F7D\u8377\u5305\u62EC\u79D1\u5B66\u4EEA\u5668\u3001\u901A\u4FE1\u8BBE\u5907\u3001\u5C45\u4F4F\u8BBE\u65BD\u548C\u673A\u5668\u4EBA\u7CFB\u7EDF\uFF08\u5982\u52A0\u62FF\u5927\u81C23\uFF09\uFF0C\u652F\u6301\u884C\u661F\u79D1\u5B66\u3001\u5929\u4F53\u7269\u7406\u5B66\u3001\u5730\u7403\u89C2\u6D4B\u3001\u7A7A\u95F4\u751F\u7269\u5B66\u548C\u4EBA\u7C7B\u5065\u5EB7\u7814\u7A76\u7B49\u4EFB\u52A1\u3002Gateway\u7684\u4E3B\u8981\u4EFB\u52A1\u662F\u4E3A\u6708\u7403\u8868\u9762\u673A\u5668\u4EBA\u8F7D\u4EBA\u63A2\u7D22\u63D0\u4F9B\u96C6\u7ED3\u70B9\uFF0C\u9A8C\u8BC1\u6DF1\u7A7A\u5C45\u4F4F\u6280\u672F\uFF0C\u5E76\u4E3A\u672A\u6765\u706B\u661F\u4EFB\u52A1\u79EF\u7D2F\u7ECF\u9A8C\uFF0C\u8BA1\u5212\u4E8E2027\u5E74\u9996\u6B21\u53D1\u5C04\uFF0C\u90E8\u7F72\u5728\u8FD1\u76F4\u7EBF\u6655\u8F68\u9053\u4E0A\u8FD0\u884C\u3002<br><br></size></color>"
   - satellite: {fileID: 86002584}
     introText: "<color=#FFFFFF><size=55><b>Deep Space 1</b></size></color>\r\n<color=#FFFFFF><size=50>NASA\u7684\u4E00\u9879\u6280\u672F\u6F14\u793A\u822A\u5929\u5668\uFF0C\u4F5C\u4E3A\u65B0\u5343\u5E74\u8BA1\u5212\u7684\u4E00\u90E8\u5206\uFF0C\u65E8\u5728\u6D4B\u8BD5\u5148\u8FDB\u6280\u672F\uFF0C\u5305\u62EC\u79BB\u5B50\u63A8\u8FDB\u3001\u81EA\u4E3B\u5BFC\u822A\u548C\u592A\u9633\u80FD\u9635\u5217\u7B49\u3002\u8BE5\u822A\u5929\u5668\u7684\u53D1\u5C04\u8D28\u91CF\u4E3A486\u5343\u514B\uFF0C\u5E72\u8D28\u91CF\u4E3A373\u5343\u514B\uFF0C\u529F\u7387\u4E3A2500\u74E6\u7279\uFF0C\u5176\u4E2D2100\u74E6\u7279\u7528\u4E8E\u9A71\u52A8\u5176NSTAR\u79BB\u5B50\u5F15\u64CE\u3002\u6709\u6548\u8F7D\u8377\u5305\u62EC\u5FAE\u578B\u96C6\u6210\u76F8\u673A\u548C\u5149\u8C31\u4EEA\u3001\u7B49\u79BB\u5B50\u4F53\u5B9E\u9A8C\u4EEA\u5668\u3001\u81EA\u4E3B\u5BFC\u822A\u7CFB\u7EDF\u3001SCARLET\u592A\u9633\u80FD\u9635\u5217\u3001\u8FDC\u7A0B\u4EE3\u7406\u8F6F\u4EF6\u548C\u4FE1\u6807\u76D1\u89C6\u5668\u7B49\u3002DS1\u7684\u4E3B\u8981\u4EFB\u52A1\u662F\u9A8C\u8BC112\u9879\u5173\u952E\u6280\u672F\uFF0C\u5E76\u901A\u8FC7\u98DE\u8D8A\u5C0F\u884C\u661F9969
@@ -5058,6 +5059,7 @@ GameObject:
   - component: {fileID: 1418075721}
   - component: {fileID: 1418075723}
   - component: {fileID: 1418075722}
+  - component: {fileID: 1418075724}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5076,13 +5078,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 803460985}
+  m_Children: []
   m_Father: {fileID: 504108006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 799, y: 273}
+  m_AnchoredPosition: {x: 718, y: 254.63153}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418075722
@@ -5183,6 +5184,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418075720}
   m_CullTransparentMesh: 1
+--- !u!114 &1418075724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418075720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 7
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.UI.ScrollRect, UnityEngine.UI
+          m_MethodName: set_elasticity
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 2
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1421947433
 PrefabInstance:
   m_ObjectHideFlags: 0
