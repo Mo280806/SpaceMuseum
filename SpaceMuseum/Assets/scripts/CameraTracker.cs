@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 public class CameraTracker : MonoBehaviour
 {
+    public Transform CurrentTarget => targetSatellite;
     public static CameraTracker Instance { get; private set; }
     [Header("主视角参数")]
     public Vector3 mainViewPos;
@@ -14,6 +15,8 @@ public class CameraTracker : MonoBehaviour
     public Vector3 satelliteOffset = new Vector3(-2f, 0, 0); // 左移2单位
     [Tooltip("聚焦时相机到卫星的距离")]
     public float focusDistance = 8f;
+    public float extraRotationY = 0f;
+    
     [Header("UI 关联")]
     public GameObject trackUI; // 包含介绍文本和返回按钮的UI容器
     public TextMeshProUGUI introText; // 卫星介绍文本
@@ -174,6 +177,8 @@ public class CameraTracker : MonoBehaviour
         if (introText != null) introText.text = "";
     }
     // 计算聚焦时的相机位置（让卫星在屏幕左侧）
+
+    // 计算聚焦时的相机位置（让卫星在屏幕左侧）
     private void CalculateFocusCameraPosition(Transform satellite)
     {
         // 目标卫星的位置 + 左侧偏移
@@ -183,7 +188,20 @@ public class CameraTracker : MonoBehaviour
         targetPos = targetSatellitePos - direction * focusDistance;
         // 相机看向卫星
         targetRot = Quaternion.LookRotation(targetSatellitePos - targetPos);
+        
+        // 应用额外的Y轴旋转修正
+        targetRot *= Quaternion.Euler(0, extraRotationY, 0);
     }
+    // private void CalculateFocusCameraPosition(Transform satellite)
+    // {
+    //     // 目标卫星的位置 + 左侧偏移
+    //     Vector3 targetSatellitePos = satellite.position + satelliteOffset;
+    //     // 相机位置 = 卫星目标位置 + 相机到卫星的距离（沿相机看向卫星的反方向）
+    //     Vector3 direction = (targetSatellitePos - transform.position).normalized;
+    //     targetPos = targetSatellitePos - direction * focusDistance;
+    //     // 相机看向卫星
+    //     targetRot = Quaternion.LookRotation(targetSatellitePos - targetPos);
+    // }
     // 只显示目标卫星，隐藏其他卫星
     private void SetOnlyTargetSatelliteActive(Transform target)
     {
