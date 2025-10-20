@@ -4554,6 +4554,7 @@ GameObject:
   - component: {fileID: 1135833990}
   - component: {fileID: 1135833986}
   - component: {fileID: 1135833991}
+  - component: {fileID: 1135833992}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4794,6 +4795,20 @@ MonoBehaviour:
   controlPanel: {fileID: 0}
   mainCamera: {fileID: 0}
   useAlternativeRotation: 0
+--- !u!114 &1135833992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135833985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a9a5bd0837b7349b2c30885456df56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 150
+  ignoreYAxis: 1
 --- !u!1 &1165711868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cbb462b0ae1cfba48b3d21e5aac1f4b1,
