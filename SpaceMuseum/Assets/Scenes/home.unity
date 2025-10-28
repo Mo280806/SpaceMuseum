@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetSceneName: home
   targetSkybox: {fileID: 2100000, guid: 52620e97489cb4841aeec4828723caeb, type: 2}
-  defaultSkybox: {fileID: 2100000, guid: 1e4fb5cf0029ec743845c11bf3a44ae3, type: 2}
+  defaultSkybox: {fileID: 2100000, guid: c486b7468227ba847ad484fd673a9d50, type: 2}
 --- !u!4 &118161698
 Transform:
   m_ObjectHideFlags: 0
