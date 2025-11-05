@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 52620e97489cb4841aeec4828723caeb, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c486b7468227ba847ad484fd673a9d50, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -744,7 +744,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 63}
-  m_SizeDelta: {x: 1200, y: 180}
+  m_SizeDelta: {x: 1600, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1317199797
 MonoBehaviour:
@@ -766,10 +766,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VR Space Museum
+  m_text: "VR \u822A\u5929\u535A\u7269\u9986"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 91564c16497d7d5499f54f4745bcd970, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 91564c16497d7d5499f54f4745bcd970, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 902fb1cc0d5f09a4e9028737d431facc, type: 2}
+  m_sharedMaterial: {fileID: -2540665176989500334, guid: 902fb1cc0d5f09a4e9028737d431facc,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -793,13 +794,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 35
+  m_fontStyle: 33
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -968,11 +969,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "VR \u822A\u5929\u535A\u7269\u9986"
+  m_text: VR Space Museum
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 902fb1cc0d5f09a4e9028737d431facc, type: 2}
-  m_sharedMaterial: {fileID: -2540665176989500334, guid: 902fb1cc0d5f09a4e9028737d431facc,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 92d5ab677cd46684cb9f73130e80dc2b, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 92d5ab677cd46684cb9f73130e80dc2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -996,13 +996,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 19
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
